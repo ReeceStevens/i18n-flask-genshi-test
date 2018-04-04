@@ -1,0 +1,41 @@
+# English translations for PROJECT.
+# Copyright (C) 2018 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-04-03 16:14-0500\n"
+"PO-Revision-Date: 2018-04-04 11:30-0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+
+#: static/index.html:3
+msgid "Testing Testing 1 2 3"
+msgstr "Testing Testing 1 2 3"
+
+#: static/index.html:6
+msgid "This is some text that could be translated."
+msgstr "This is some text that could be translated."
+
+#: static/index.html:7
+msgid ""
+"These are a couple of translatable sentences. I'm glad we're adding some "
+"more\n"
+"        translatable content here, since we need it."
+msgstr ""
+"These are a couple of translatable sentences. I'm glad we're adding some "
+"more\n"
+"        translatable content here, since we need it."
+
+#: static/index.js:7
+msgid "This is some new content"
+msgstr "This is some new content"
