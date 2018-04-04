@@ -2,14 +2,15 @@
       xmlns:i18n="http://genshi.edgewall.org/i18n">
     <head>
         <title>Testing Testing 1 2 3</title>
+        <script src="index.js"> </script>
     </head>
     <body>
         <h1>This is some text that could be translated.</h1>
         <p>These are a couple of translatable sentences. I'm glad we're adding some more
         translatable content here, since we need it.</p>
+        <p i18n:msg="fruit">My favorite fruit is a red ${fruit}</p>
         <div>
             <p id="add-stuff"></p>
         </div>
-        <script src="index.js"></script>
     </body>
 </html>

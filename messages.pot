@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-03 16:14-0500\n"
+"POT-Creation-Date: 2018-04-04 16:14-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: static/index.html:3
+#: server.py:26
+msgid "apple"
+msgstr ""
+
+#: static/index.js:7
+msgid "This is some new content"
+msgstr ""
+
+#: templates/index.html:4
 msgid "Testing Testing 1 2 3"
 msgstr ""
 
-#: static/index.html:6
+#: templates/index.html:8
 msgid "This is some text that could be translated."
 msgstr ""
 
-#: static/index.html:7
+#: templates/index.html:9
 msgid ""
 "These are a couple of translatable sentences. I'm glad we're adding some "
 "more\n"
 "        translatable content here, since we need it."
 msgstr ""
 
-#: static/index.js:7
-msgid "This is some new content"
+#: templates/index.html:11
+#, python-format
+msgid "My favorite fruit is a red %(fruit)s"
 msgstr ""
 
