@@ -1,4 +1,6 @@
 import gettext
+import os
+import re
 
 from flask import Flask, g, request
 from flaskext.genshi import Genshi, render_template, render_response
@@ -16,6 +18,18 @@ genshi = Genshi(app)
 @babel.localeselector
 def get_locale():
     return request.accept_languages.best_match(['es', 'en'])
+
+@app.route("/<path>")
+def static_endpoint(path):
+    full_static_path = os.path.join("static", path)
+    with open(full_static_path) as static_file:
+        static_str = static_file.read()
+    gettext_pattern = re.compile(r'_\("(.*?)"\)')
+    translation_dict = {translatable_str: _(translatable_str)
+                        for translatable_str in gettext_pattern.findall(static_str)}
+    for key in translation_dict:
+        static_str = static_str.replace(key, translation_dict[key])
+    return app.make_response(static_str)
 
 @app.route("/")
 def endpoint():
