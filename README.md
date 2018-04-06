@@ -40,5 +40,6 @@ make update_po
 make mo
 
 # Run the server with the specified language setting
-LANG={en,es} python server.py
-```
+python server.py
+
+# Change the language by changing the value of LANGUAGE_CONFIG_VAR
