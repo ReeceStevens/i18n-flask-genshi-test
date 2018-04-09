@@ -1,29 +1,30 @@
-# Translations template for PROJECT.
+# English translations for PROJECT.
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-09 18:19-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2018-04-09 18:51-0500\n"
+"PO-Revision-Date: 2018-04-04 11:30-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: server.py:35
+#: server.py:34
 msgid "apple"
-msgstr ""
+msgstr "apple"
 
 #: static/index.js:3
 msgid "This is some new content"
-msgstr ""
+msgstr "This is some new content"
 
 #: static/other.html:3
 msgid "Woah! Other static file here!"
@@ -31,11 +32,11 @@ msgstr ""
 
 #: templates/index.html:4
 msgid "Testing Testing 1 2 3"
-msgstr ""
+msgstr "Testing Testing 1 2 3"
 
 #: templates/index.html:9
 msgid "This is some text that could be translated."
-msgstr ""
+msgstr "This is some text that could be translated."
 
 #: templates/index.html:10
 msgid ""
@@ -43,9 +44,27 @@ msgid ""
 "more\n"
 "        translatable content here, since we need it."
 msgstr ""
+"These are a couple of translatable sentences. I'm glad we're adding some "
+"more\n"
+"        translatable content here, since we need it."
 
 #: templates/index.html:12
 #, python-format
-msgid "My favorite [1:fruit \\] \\[ \\]] is a [2:red] %(fruit)s"
+msgid "My favorite [1:fruit] is a [2:red] %(fruit)s"
 msgstr ""
+
+#~ msgid "My favorite fruit is a red %(fruit)s"
+#~ msgstr "My favorite fruit is a red %(fruit)s"
+
+#~ msgid "My favorite [1:fruit] is a [2:red] %(fruit)s"
+#~ msgstr ""
+
+#~ msgid "My favorite [1:fruit \\] \\[ \\]] is a [2:red] %(fruit)s"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "My favorite [1:fruit with an end "
+#~ "bracket \\] \\[ \\]] is a [2:red]"
+#~ " %(fruit)s"
+#~ msgstr ""
 

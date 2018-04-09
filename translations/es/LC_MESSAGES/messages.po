@@ -1,17 +1,18 @@
-# Translations template for PROJECT.
+# Spanish translations for PROJECT.
 # Copyright (C) 2018 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-04-09 18:19-0500\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-04-03 16:15-0500\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,11 +20,11 @@ msgstr ""
 
 #: server.py:35
 msgid "apple"
-msgstr ""
+msgstr "manzana"
 
 #: static/index.js:3
 msgid "This is some new content"
-msgstr ""
+msgstr "Este es un nuevo contenido"
 
 #: static/other.html:3
 msgid "Woah! Other static file here!"
@@ -31,11 +32,11 @@ msgstr ""
 
 #: templates/index.html:4
 msgid "Testing Testing 1 2 3"
-msgstr ""
+msgstr "Pruebas Pruebas uno dos tres"
 
 #: templates/index.html:9
 msgid "This is some text that could be translated."
-msgstr ""
+msgstr "Este es un texto que podría traducirse"
 
 #: templates/index.html:10
 msgid ""
@@ -43,9 +44,10 @@ msgid ""
 "more\n"
 "        translatable content here, since we need it."
 msgstr ""
+"Estas son un par de oraciones traducibles. Me alegra que agreguemos más "
+"contenido traducible aquí, ya que lo necesitamos."
 
 #: templates/index.html:12
 #, python-format
-msgid "My favorite [1:fruit \\] \\[ \\]] is a [2:red] %(fruit)s"
-msgstr ""
-
+msgid "My favorite [1:fruit] is a [2:red] %(fruit)s"
+msgstr "Mi [1:fruta] favorita es una %(fruit)s [2:roja]"
