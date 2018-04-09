@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-04-09 18:19-0500\n"
+"POT-Creation-Date: 2018-04-09 18:51-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.5.3\n"
 
-#: server.py:35
+#: server.py:34
 msgid "apple"
 msgstr ""
 
@@ -46,6 +46,6 @@ msgstr ""
 
 #: templates/index.html:12
 #, python-format
-msgid "My favorite [1:fruit \\] \\[ \\]] is a [2:red] %(fruit)s"
+msgid "My favorite [1:fruit] is a [2:red] %(fruit)s"
 msgstr ""
 
